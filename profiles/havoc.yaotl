@@ -1,6 +1,6 @@
 Teamserver {
     Host = "0.0.0.0"
-    Port = 40056
+    Port = 4545
 
     Build {
         Compiler64 = "data/x86_64-w64-mingw32-cross/bin/x86_64-w64-mingw32-gcc"
@@ -10,12 +10,12 @@ Teamserver {
 }
 
 Operators {
-    user "5pider" {
-        Password = "password1234"
+    user "sasori" {
+        Password = "kakashi"
     }
 
-    user "Neo" {
-        Password = "password1234"
+    user "kiriko" {
+        Password = "kakashi"
     }
 }
 
@@ -26,7 +26,7 @@ Service {
 }
 
 Demon {
-    Sleep = 2
+    Sleep = 30
     Jitter = 15
 
     TrustXForwardedFor = false
